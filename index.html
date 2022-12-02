@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Calculadora IMC</title>
     
-    <script src="script.js" defer></script>
+    <script src="./js/script.js" defer type="module"></script>
 </head>
 <body>
-    <div class="alert-error open">
+    <div class="alert-error ">
         Digite somente números
     </div>
 
@@ -31,7 +31,7 @@
                     >
                 </div>
                 <div class="input-wrapper">
-                    <label for="height"> Altura (m)</label>
+                    <label for="height"> Altura (Cm)</label>
                     <input 
                     id="height"
                     type="text"
@@ -49,13 +49,13 @@
         </main>
     </div>
 
-    <div class="modal-wrapper open">
+    <div class="modal-wrapper">
         <div class="modal card">
             <h2 class="title">
                 <button class="close">
                     <img src="assets/close.svg" alt="">
                 </button>
-                Seu IMC é de 28
+                <span>Seu IMC é de 28</span>
             </h2>
         </div>
     </div>
